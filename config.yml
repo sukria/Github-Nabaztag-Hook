@@ -25,6 +25,9 @@ app:
   nabaztag:
     serial:
     token:
-  prefix_message:
+  # you can use:
+  # %a : the names of all the authors in the payload
+  # %p : the project name
+  message_format: "Push Github received on %p by %a"
     
 
